@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;700&display=swap');
 body{
     background-color: rgba(0, 0, 0, 0.775);
     position: relative;
     overflow-x: hidden;
+    font-family: "Radio Canada";
 }
 .balloon{
     position: absolute;
@@ -36,6 +38,7 @@ body{
         font-size: 60px;
         color: #ff0000;
         font-weight: 700;
+        margin-top: 20px;
     }
     &__activate{
         display: flex;
@@ -52,6 +55,10 @@ body{
     }
     &__code{
         margin:20px 20px;
+        &-code{
+            color: aqua;
+            font-weight: 700;
+        }
     }
 }
 .show__coupon{
